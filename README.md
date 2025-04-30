@@ -1,10 +1,10 @@
-# 🌄 HDR Reconstruction with Deep Learning - Leave Darkness, Light Up Reality
+# HDR Reconstruction with Deep Learning - Leave Darkness, Light Up Reality
 
 **A deep learning project for reconstructing HDR images from single-exposure LDR inputs using optimized preprocessing and network structures.**
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 
 This project was developed for the College of Science and Engineering Research Competition, focusing on reconstructing **High Dynamic Range (HDR)** images from **Standard Dynamic Range (LDR)** inputs using machine learning techniques.
 
@@ -12,7 +12,7 @@ With HDR-capable displays and cameras becoming more common, this research explor
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Reconstruct HDR images from a single LDR input using CNNs
 - Apply various preprocessing techniques to enhance dataset diversity
@@ -21,7 +21,7 @@ With HDR-capable displays and cameras becoming more common, this research explor
 
 ---
 
-## 🛠️ Techniques Used
+## Techniques Used
 
 | Category               | Tools/Methods                                  |
 |------------------------|------------------------------------------------|
@@ -34,7 +34,7 @@ With HDR-capable displays and cameras becoming more common, this research explor
 
 ---
 
-## 🔍 Key Contributions
+## Key Contributions
 
 - Developed three dataset variations with diverse preprocessing strategies to test reconstruction performance
 - Replaced VGG16 with **ResNet50**, reducing training time from 7h56m to 4h51m and increasing SSIM from 0.27 to 0.85
@@ -43,7 +43,7 @@ With HDR-capable displays and cameras becoming more common, this research explor
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Model         | PSNR (dB) | SSIM   | Training Time |
 |---------------|-----------|--------|----------------|
@@ -54,18 +54,18 @@ With HDR-capable displays and cameras becoming more common, this research explor
 
 ---
 
-## 📷 Sample Comparison
+## Sample Comparison
 
 | Model        | Output Preview |
 |--------------|----------------|
-| Ground Truth | ![](samples/gt.png) |
-| Our HDRCNN (ResNet50) | ![](samples/ours.png) |
-| HDRUNet      | ![](samples/hdrunet.png) |
-| ExpandNet    | ![](samples/expandnet.png) |
+| Ground Truth | ![image](https://github.com/user-attachments/assets/436b836b-2bd9-43b5-8c4e-b4c900c50bb3) |
+| Our HDRCNN (ResNet50) | ![image](https://github.com/user-attachments/assets/c25a232c-46f2-42f4-86cf-1b14b755062b)|
+| HDRUNet      | ![image](https://github.com/user-attachments/assets/4071d68a-6e48-410e-a4be-c3c6d1b2cfad)|
+| ExpandNet    | ![image](https://github.com/user-attachments/assets/2ccccea3-fd79-4fcd-8881-fc99c4219403)|
 
 ---
 
-## 🧠 Future Work
+## Future Work
 
 - Explore **multi-task learning** to integrate preprocessing directly into the model
 - Apply **super-resolution** as a post-processing step for finer detail enhancement
@@ -73,14 +73,14 @@ With HDR-capable displays and cameras becoming more common, this research explor
 
 ---
 
-## 👩‍💻 Authors
+## Authors
 
-- **CHEN, PEI-CHI**
 - **HO, TING-WEI**
+- **CHEN, PEI-CHI**
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you reference this work, please cite:
 
@@ -88,9 +88,9 @@ If you reference this work, please cite:
 
 ---
 
-## 📬 Contact
+## Contact
 
 For inquiries or collaboration, please contact:  
-📧 **peichi.dev@gmail.com**
+**james61324@gmail.com**
 
 ---
